@@ -13,16 +13,16 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Abu Fatih Blog
+      title: Catatan Muhammad Surya Ihsanuddin
 
-description: Abu Fatih Blog
+description: Catatan Muhammad Surya Ihsanuddin
 author:
   name: Muhammad Surya Ihsanuddin
   email: surya.kejawen@gmail.com
   github: ihsanudin
   twitter: ~
   pinterest: ~
-  linkedin: ~
+  linkedin: ihsanuddin
   bio: Muhammad Surya Ihsanuddin
   email_md5: ~
 

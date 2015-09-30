@@ -16,7 +16,7 @@ mendownload dependencies. Script handler dapat juga disebut sebagai composer hoo
 
 Untuk membuat script handler sangatlah mudah, berikut adalah contohnya:
 
-```php
+{% highlight php %}
 <?php
 
 namespace Composer\Hook;
@@ -42,7 +42,7 @@ class DoctrineClearCache extends ScriptHandler
         static::executeCommand($event, $appDir, 'doctrine:cache:clear-result', $options['process-timeout']);
     }
 }
-```
+{% endhighlight %}
 
 Script diatas akan menghapus doctrine cache yaitu metadata, query dan juga result cache.
 
@@ -50,7 +50,7 @@ Script diatas akan menghapus doctrine cache yaitu metadata, query dan juga resul
 
 Script diatas tinggal kita registerkan di composer.json
 
-```json
+{% highlight json %}
 {
     "scripts": {
         "post-install-cmd": [
@@ -61,6 +61,6 @@ Script diatas tinggal kita registerkan di composer.json
         ]
     }
 }
-```
+{% endhighlight %}
 
 Mudah bukan? Semoga bermanfaat 

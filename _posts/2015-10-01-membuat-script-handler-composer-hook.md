@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Membuat Script Handler [Composer Hook]
-categories: [composer, script handler, composer hook]
+categories: [composer, script-handler, composer-hook]
 tags: [composer, hook, post-install, post-update]
 description: Tutorial singkat cara membuat script handler [composer hook] untuk otomatisasi "task" yang akan dijalankan ketika composer install atau composer update. 
 comments: true
